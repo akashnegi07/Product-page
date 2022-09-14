@@ -1,0 +1,8 @@
+name: Jugad Product assgiment 
+description: Jugad Product page using custom module for Drupal 9
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - jugad_product_page/cuddly-slider

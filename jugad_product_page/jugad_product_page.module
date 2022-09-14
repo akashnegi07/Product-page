@@ -1,0 +1,15 @@
+<?php
+
+/**
+* Implements hook_theme()
+**/
+function jugad_product_page_theme($existing, $type, $theme, $path) {
+  return [
+    'code_block' => [
+     'path' => drupal_get_path('module', 'jugad_product_page') . '/templates/Block',
+      'variables' => ['code_path' => ''],
+    ],
+];
+}
+
+function jugad_product_page_attachments(&$variables) {  $variables['#attached']['library'][] = 'jugad_product_page/cuddly-slider';}
