@@ -10,3 +10,7 @@ here i  make product detail page where tittle description and image and one link
             composer require endroid/qr-code
 
 
+![image](https://user-images.githubusercontent.com/102981342/190153443-95a0ccaf-28d7-4972-b75e-c5a724e18b93.png)
+
+
+
